@@ -8,6 +8,8 @@ The main idea behind this lib was taken from [_purescript-oneof_ library by @jvl
 
 I've narrowed this idea down to handle only unions with `undefined` type. I really focus on optional record fields here.
 
+The name refers to a very popular Javascript runtime error that has become a meme as programs crash to it during development, "undefined is not a function" or "undefined is not an object". This error is produced when you call undefined, eg. `undefined()`, the error is notorious for it's obscurity and appearance far away from the source of the problem.
+
 ## Status
 
 I'm about to publish. I want to use this lib in a larger project before so I would know if the API is usable enough.
